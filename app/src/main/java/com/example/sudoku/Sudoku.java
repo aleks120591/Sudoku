@@ -1,16 +1,21 @@
 package com.example.sudoku;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
+import android.view.View.OnClickListener;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
-public class Sudoku extends AppCompatActivity {
+public class Sudoku extends Activity implements OnClickListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+
+        View continueButton = findViewById(R.id.continue_button);
+        continueButton.setOnClickListener(this);
     }
 
     @Override
@@ -33,5 +38,10 @@ public class Sudoku extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onClick(View v) {
+
     }
 }
