@@ -23,6 +23,21 @@
             android:layout_height="wrap_content"
             android:id="@+id/continue_button"
             android:text="@string/continue_lable"/>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/new_game_button"
+            android:text="@string/new_game_lable"/>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/about_button"
+            android:text="@string/about_lable"/>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/exit_button"
+            android:text="@string/exit_lable"/>
 
     </LinearLayout>
 </LinearLayout>
