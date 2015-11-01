@@ -20,26 +20,35 @@
             android:layout_gravity="center"
             android:layout_marginBottom="20dip"
             android:textSize="24.5sp"/>
-        <Button
-            android:layout_width="fill_parent"
+        <TableLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/continue_button"
-            android:text="@string/continue_lable"/>
-        <Button
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/new_game_button"
-            android:text="@string/new_game_lable"/>
-        <Button
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/about_button"
-            android:text="@string/about_lable"/>
-        <Button
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/exit_button"
-            android:text="@string/exit_lable"/>
-
+            android:layout_gravity="center"
+            android:stretchColumns="*">
+            <TableRow>
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/continue_button"
+                    android:text="@string/continue_lable"/>
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/new_game_button"
+                    android:text="@string/new_game_lable"/>
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/about_button"
+                    android:text="@string/about_lable"/>
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/exit_button"
+                    android:text="@string/exit_lable"/>
+            </TableRow>
+        </TableLayout>
     </LinearLayout>
 </LinearLayout>
