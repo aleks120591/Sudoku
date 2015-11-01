@@ -4,7 +4,7 @@
     <string name="main_title">Android Sudoku</string>
     <string name="continue_lable">Продолжить</string>
     <string name="new_game_lable">Новая игра</string>
-    <string name="about_lable">Об игре...</string>
+    <string name="about_title">Об игре...</string>
     <string name="exit_lable">Выход</string>
     <string name="about_text">Игровое поле представляет собой квадрат размером 9×9,
         разделённый на меньшие квадраты со стороной в 3 клетки. Таким образом, всё
