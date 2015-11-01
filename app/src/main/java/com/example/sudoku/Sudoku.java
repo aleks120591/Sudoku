@@ -1,6 +1,7 @@
 package com.example.sudoku;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.view.View.OnClickListener;
 import android.os.Bundle;
 import android.view.Menu;
@@ -49,6 +50,13 @@ public class Sudoku extends Activity implements OnClickListener{
 
     @Override
     public void onClick(View v) {
+        switch (v.getId()){
+            case R.id.about_button:{
+                Intent i = new Intent(this,About.class);
+                startActivity(i);
+                break;
+            }
+        }
 
     }
 }
