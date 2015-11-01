@@ -14,8 +14,15 @@ public class Sudoku extends Activity implements OnClickListener{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
+        //обработчик нажатий для кнопок
         View continueButton = findViewById(R.id.continue_button);
         continueButton.setOnClickListener(this);
+        View newButton = findViewById(R.id.new_game_button);
+        newButton.setOnClickListener(this);
+        View aboutButton = findViewById(R.id.about_button);
+        aboutButton.setOnClickListener(this);
+        View exitButton = findViewById(R.id.exit_button);
+        exitButton.setOnClickListener(this);
     }
 
     @Override
