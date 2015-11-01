@@ -2,12 +2,16 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:background="@color/background"
-    android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_height="fill_parent"
+    android:padding="30dip"
+    android:orientation="horizontal" >
     <TextView
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="25dip"
+        android:textSize="24.5sp"
         android:text="@string/main_title" />
     <Button
         android:id="@+id/continue_button"
